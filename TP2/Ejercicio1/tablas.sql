@@ -21,7 +21,7 @@ CREATE TABLE Salidas(
   id_salida INT PRIMARY KEY NOT NULL,
   matricula VARCHAR(20) NOT NULL,
   fecha_salida DATE,
-  hora_salida DATETIME,
+  hora_salida TIME,
   destino VARCHAR(100),
   patron_nombre VARCHAR(100),
   patron_direccion VARCHAR(255),
